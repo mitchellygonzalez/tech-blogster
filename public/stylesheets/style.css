@@ -140,12 +140,17 @@ main {
 }
 
 .blog-heading {
-  color:#ddf1d8
+  color:#ddf1d8;
+  opacity: 0.7;
+  display: block;
+  margin-top: 20px;
+
 }
 
 .dashboard {
   color:#ddf1d8
 }
+
 
 .comment {
   padding: 1%;
