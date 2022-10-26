@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+a {
+  text-decoration: none;
+  color: #a3224f;
+  font-weight: bold;
+  transition: color .1s;
+}
+
+a:hover {
+  color: #8f97a0;
+}
+
+button {
+  background-color: #757070;
+  border: 0;
+  padding: 1%;
+  color: rgb(227, 225, 225);
+  font-weight: bold;
+  transition: background-color .1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #8f97a0;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+textarea, input {
+  padding: .5%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid rgb(75, 59, 59);
+  display: flex;
+  background-color:#372727;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+header h1 {
+  font-size: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+  background-color: #cee3ce;
+  color:rgb(75, 59, 59)
+}
+
+.btn-w-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ddf1d8;
+  font-size: 100%;
+  font-weight: bold;
+  transition: color .1s;
+  margin-left: 16px;
+}
+
+.btn-w-style:hover {
+  background: none;
+  color: #8f97a0;
+}
+
+.delete-post-btn {
+  background-color: #4714d4;
+}
+
+.delete-post-btn:hover {
+  background-color: #3dff54;
+}
+
+.post {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+.post .title span {
+  font-style: italic;
+  font-size: 90%;
+  color: #5f6859;
+}
+
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.blog-heading {
+  color:#ddf1d8
+}
+
+.dashboard {
+  color:#ddf1d8
+}
+
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.comment:nth-child(odd) { 
+  background-color: #a2bba5;
+}
+
+.comment .meta {
+  font-size: 90%;
+  margin-bottom: .5%;
+  opacity: .6;
+}
+
+.new-post-form input {
+  width: 300px;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 110%;
+}
