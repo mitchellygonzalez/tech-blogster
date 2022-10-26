@@ -12,7 +12,7 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #22a347;
+  color: #a3224f;
   font-weight: bold;
   transition: color .1s;
 }
@@ -48,7 +48,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #ffffff;
 }
 
 textarea {
@@ -90,6 +90,7 @@ main {
   flex: 1;
   padding: 2% 4%;
   background-color: #cee3ce;
+  color:rgb(75, 59, 59)
 }
 
 .btn-w-style {
@@ -98,7 +99,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #ddf1d8;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -111,11 +112,11 @@ main {
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #4714d4;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #3dff54;
 }
 
 .post {
@@ -126,7 +127,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #d20606;
+  color: #5f6859;
 }
 
 .edit-link {
@@ -138,13 +139,21 @@ main {
   margin-bottom: 5%;
 }
 
+.blog-heading {
+  color:#ddf1d8
+}
+
+.dashboard {
+  color:#ddf1d8
+}
+
 .comment {
   padding: 1%;
   margin-bottom: 1%;
 }
 
 .comment:nth-child(odd) { 
-  background-color: #ef0404;
+  background-color: #a2bba5;
 }
 
 .comment .meta {

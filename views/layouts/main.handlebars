@@ -10,19 +10,20 @@
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="whole-portion">      
       <h1>
-        <a href="/">The Tech Blogster</a>
+        <a class="blog-heading">The Tech Blogster</a>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
+        <a class='dashboard' href="/dashboard">dashboard</a>
         <button id="logout" class="btn-w-style">logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
       </nav>
     </header>
+
     <main>
       {{{ body }}}
     </main>
