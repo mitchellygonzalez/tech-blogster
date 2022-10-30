@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   })
     .then(dbUserData => res.json(dbUserData))
     .catch(err => {
-      console.log(err);
+      console.log(err);fo
       res.status(500).json(err);
     });
 });

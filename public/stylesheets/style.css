@@ -43,6 +43,7 @@ button:hover {
 
 textarea, input {
   padding: .5%;
+  margin: 1%;
   border: 1px solid rgb(255, 255, 255);
 }
 
@@ -75,7 +76,8 @@ form label {
 
 header {
   border-bottom: 1px solid rgb(75, 59, 59);
-  display: flex;
+  display:flex;
+
   background-color:#372727;
   justify-content: space-between;
   align-items: center;
@@ -91,6 +93,45 @@ main {
   padding: 2% 4%;
   background-color: #cee3ce;
   color:rgb(75, 59, 59)
+}
+
+.card-header {
+  background-color:#372727;
+  margin: 0px !important;
+  padding: 5px;
+}
+.card-container {
+  border: 2px solid #372727;
+}
+
+.edit-post-form {
+padding: 5px;
+display: flex;
+flex-direction: column;
+
+}
+
+.edit-post-form input{
+  margin: 5px;
+  height: 100px;
+  width: 90%;
+}
+.edit-post-form button{ 
+  margin: 5px;
+  width: 50%;
+}
+
+#bubble {
+  background:#cee3ce;
+  color:rgb(71, 61, 61);
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 20ch ;
+}
+
+
+.anchor {
+  font-size:smaller;
 }
 
 .btn-w-style {
@@ -140,7 +181,6 @@ main {
 }
 
 
-
 .dashboard {
   color:#ddf1d8;
   margin-top: 20px;
@@ -149,7 +189,7 @@ main {
 
 .blog-heading {
   color:#ddf1d8;
-  margin-top: 20px;
+  margin-top: 10px;
 
 }
 
@@ -160,6 +200,12 @@ main {
 
 .comment:nth-child(odd) { 
   background-color: #a2bba5;
+}
+
+.submit {
+  color: #a2bba5;
+  padding: .5%;
+  margin: 10%;
 }
 
 .comment .meta {
@@ -173,7 +219,7 @@ main {
 }
 
 .edit-post-form {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 footer {

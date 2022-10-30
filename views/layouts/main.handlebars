@@ -6,21 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blogster</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
-
 </head>
 
 <body>
   <div class="wrapper">
     <header class="portion">
       <h1>
-        <a class="blog-heading" href="/">The Tech Blogster</a>
+        <a class="blog-heading" id="bubble" href="/">The Tech Blogster</a>
       </h1>
       <nav>
+      <a class="dashboard" href="/">home</a>
         {{#if loggedIn}}
         <a class='dashboard' href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-w-style">logout</button>
+        <a id="logout" class="btn-w-style">logout</a>
         {{else}}
-        <a href="/login">login</a>
+        <a class="dashboard" href="/login">login</a>
         {{/if}}
       </nav>
     </header>
