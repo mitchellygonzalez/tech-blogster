@@ -5,6 +5,8 @@
 
 ## Table of Contents
 * [Description](#description)
+* [Link](#Link)
+* [Screenshots](#screenshots)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Installation](#installation)
@@ -16,6 +18,16 @@
 ## Description
 Tech-Blogster is a Model-View-Controller based application that is deployed onto heroku. Users can create an account, publish their blog posts, and comment on other blog post 
 as well. Similar to a Wordpress site, developers can use it to cover topics that are popular or may be of interest to other developers.
+
+## Link
+- Link to deployed heroku application:
+  - https://mysterious-peak-44363.herokuapp.com/
+
+## Screenshots
+Here are some screenshots of the deployed application link above
+<img width="1280" alt="Screen Shot 2022-11-10 at 8 55 56 PM" src="https://user-images.githubusercontent.com/107009737/201248210-206f71aa-5468-42fc-940e-18482cad504a.png">
+
+<img width="1280" alt="Screen Shot 2022-11-10 at 8 55 46 PM" src="https://user-images.githubusercontent.com/107009737/201248204-437c4b94-0260-4632-9ca6-8b10b8f53953.png">
 
 
 ## User Story
