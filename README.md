@@ -16,8 +16,7 @@
 * [Questions](#questions)
  
 ## Description
-Tech-Blogster is a Model-View-Controller based application that is deployed onto heroku. Users can create an account, publish their blog posts, and comment on other blog post 
-as well. Similar to a Wordpress site, developers can use it to cover topics that are popular or may be of interest to other developers.
+Tech-Blogster is a Model-View-Controller based application that is deployed onto heroku. Users can create an account, publish their blog posts, and comment on other blog posts as well. Similar to a Wordpress site, developers can use it to cover topics that are popular or may be of interest to other developers. This application deploys via the website below. See screenshots attached below for a viewpoint of the application itself. 
 
 ## Link
 - Link to deployed heroku application:
